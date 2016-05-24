@@ -1,62 +1,156 @@
-@media only screen and (max-width: 800px) {
+
 
 h1 {
 	color: white;
 	font-size: 45px;
 }
 
-}
 @media only screen and (max-width: 500px) {
 
-h1 {
-	color: blue;
-	font-size: 15px;
-}
 
 }
 
-.mediabox {
-padding-top: 200px;	
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-justify-content: space-around;
-align-items: flex-end;
-align-content: center;
-
-}
 
 p {
 	background-color: 
 }
 
-.nav {
 
-	font-color: #ffffff;
-	font-size: 30px;
-	float: right;
-	margin-right:40px;
-	margin-top: 20px;
+/*.transparentBox {
+background-color: rgba(5,4,2,0.1);
+width:850px;
+height: 100%;
+margin-left:auto;
+margin-right:auto;
+padding: 15px; }
+} 
+*/
+.logo {
+
+	position: fixed;
+/*	top: 0px;*/
+	left: 44vw;
+	width: 150px;
+/*	right: 0;*/
+/*	margin:auto;*/
+	z-index: 100;
+	background-color: white;
+	text-align: center;
+
 }
+
+.logo img {
+
+	height: 125px;
+	width: 125px;
+}
+/*
+#transplogo {
+
+	background-color: gray;
+	opacity: 0.8;
+}*/
+
+#transplogo img{
+	position: fixed;
+	left: 43vw;
+	height: 175px;
+	width: 175px;
+	top: 125px;
+	z-index: 100;
+
+}
+
 .nav a {
 padding:10px;
+margin: 0px;
+}
+
+.container {
+	width: 100vw;
+  	height: 100vh;
+
+}
+.columnLeft  {
+
+   background: url("images/seattle.jpeg");
+   width: 50%;
+   position: absolute;
+   left: 0px;
+   height: 100%;
+   	-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+
+.columnLeft img {
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+
+}
+
+.columnLeftBox {
+	position: absolute;
+	top: 5vh;
+	left: 0vw;
+	height:75vh ; 
+	width:50vw ;
+	background-color: black;
+	opacity: 0.5;
+	z-index: 50;
+}
+
+.columnRight  {
+
+ background: url("images/coffeeshop.jpeg");
+
+   width: 50%;
+   position: absolute;
+   right: 0px;
+   height: 100%;
+   	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+
+
+}
+
+.columnRightBox {
+	position: absolute;
+	top: 5vh;
+	right: 0vw;
+	height:80vh ; 
+	width:50vw ;
+	background-color: #eb5516;
+	opacity: 0.5;
+	z-index: 50;
+}
+
+
+.columnLeft:hover {
+
+background-size:180% ;
+background-repeat: no-repeat;
+background-position: center;
+
+
+}
+
+.columnRight:hover {
+
+background-size:180% ;
+background-repeat: no-repeat;
+background-position: center;
+
 
 }
 
 body {
-	background-color: gray;
+
+margin:0px;
+
+
+
 }
 
 
 
-/*flex commands
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-justify-content: apace-around;
-justify-content: apace-between;
-align-content: center;
-alighn-items: center;
-flex-start
-flex-stop
-*/
+
