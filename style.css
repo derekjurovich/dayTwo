@@ -1,0 +1,58 @@
+@media only screen and (max-width: 800px) {
+
+h1 {
+	color: white;
+	font-size: 45px;
+}
+
+}
+@media only screen and (max-width: 500px) {
+
+h1 {
+	color: blue;
+	font-size: 15px;
+}
+
+}
+
+.mediabox {
+padding-top: 200px;	
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-around;
+align-items: flex-end;
+align-content: center;
+
+}
+
+.nav {
+
+	font-color: #ffffff;
+	font-size: 30px;
+	float: right;
+	margin-right:40px;
+	margin-top: 20px;
+}
+.nav a {
+padding:10px;
+
+}
+
+body {
+	background-color: gray;
+}
+
+
+
+/*flex commands
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: apace-around;
+justify-content: apace-between;
+align-content: center;
+alighn-items: center;
+flex-start
+flex-stop
+*/
